@@ -1,0 +1,182 @@
+/*  import google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background: rgb(4, 80, 23);
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 20px;
+  background: #011d04;
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+.logo a{
+  color: #fff7f7;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 2rem 8rem 2rem 2rem;
+}
+.search_box{
+  display: flex;
+  align-items: center;
+}
+.header-icons{
+  display: flex;
+  align-items: center;
+}
+.header-icons i{
+  margin-right: 2rem;
+  cursor: pointer;
+}
+.header-icons .account{
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-icons .account img{
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.container{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Side menubar section */
+nav{
+  background: #011d04;
+}
+.side_navbar{
+  padding: 1px;
+  display: flex;
+  flex-direction: column;
+}
+.side_navbar span{
+  color: rgb(255, 255, 255);
+  margin: 1rem 3rem;
+  font-size: 12px;
+}
+.side_navbar a{
+  width: 100%;
+  padding: 0.8rem 3rem;
+  font-weight: 500;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+}
+.links{
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+.links a{
+  font-size: 13px;
+}
+.side_navbar a:hover{
+  background: rgb(5, 87, 18);
+}
+.side_navbar .active{
+  border-left: 2px solid rgb(23, 77, 10);
+}
+
+/* Main Body Section */
+.main-body{
+  width: 70%;
+  padding: 1rem;
+}
+.promo_card{
+  width: 100%;
+  color: #ffffff;
+  margin-top: 10px;
+  border-radius: 8px;
+  padding: 0.5rem 1rem 1rem 3rem;
+  background: #011d04;
+}
+.promo_card h1, .promo_card span, button{
+  margin: 10px;
+}
+.promo_card button{
+  display: block;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.history_lists{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+table{
+  background: #011d04;
+  padding: 1rem;
+  text-align: left;
+  border-radius: 10px;
+}
+table td, th{
+  padding: 0.2rem 0.8rem;
+}
+table th{
+  font-size: 15px;
+}
+table td{
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+
+
+
+/* Sidebar Section */
+.sidebar{
+  width: 15%;
+  padding: 2rem 1rem;
+  background: #011d04;
+}
+.sidebar h4{
+  margin-bottom: 1.5rem;
+}
+.sidebar .balance{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.balance .icon{
+  color: #0f3d05;
+  font-size: 20px;
+  border-radius: 6px;
+  margin-right: 1rem;
+  padding: 1rem;
+  background: rgb(255, 255, 255);
+}
+.balance .info h5{
+  font-size: 16px;
+}
+.balance .info span{
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+}
+.balance .info i{
+  margin-right: 2px;
+}
